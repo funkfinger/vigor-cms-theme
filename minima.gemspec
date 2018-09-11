@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "vigor-cms-theme"
-  spec.version       = "0.0.3"
+  spec.version       = "0.0.4"
   spec.authors       = ["Vigor"]
   spec.email         = ["coach@liveinvigor.com"]
 
