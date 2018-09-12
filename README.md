@@ -1,3 +1,14 @@
+vigor-cms-theme
+===============
+
+Based on [minima](https://jekyll.github.io/minima/)
+
+he theme is a gem based Jekyll's default theme [minima](https://github.com/jekyll/minima). Here is a way to connect the `gem` to the local repo so that I don't need to version bump and `bundle install` all of the time...
+
+    bundle config local.vigor-cms-theme /path/to/local/vigor-cms-theme
+
+___
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.

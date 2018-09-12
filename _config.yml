@@ -29,9 +29,9 @@ rss: rss
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-# Minima date format
+# vigor-cms-theme date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
+vigor-cms-theme:
   date_format: "%b %-d, %Y"
 
 # If you want to link only specific pages in your header, uncomment
@@ -40,7 +40,7 @@ minima:
 # - about.md
 
 # Build settings
-theme: minima
+theme: vigor-cms-theme
 
 plugins:
  - jekyll-feed

@@ -1,6 +1,9 @@
 The MIT License (MIT)
 
-Copyright (c) 2016-present Parker Moore and the minima contributors
+Copyright (c) 2018-present Vigor.
+
+Theme based on minima which is Copyright (c) 2016-present Parker Moore and
+the minima contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
