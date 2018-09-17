@@ -3,6 +3,7 @@
 @import "bootstrap";
 @import "bootswatch-yeti/bootswatch";
 
+@import "jekyll_pages_api_search";
 
 body {
   padding-top: 120px
@@ -16,4 +17,8 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
   margin-top: 70px;
+}
+
+.navbar-brand {
+  font-size: 3em;
 }

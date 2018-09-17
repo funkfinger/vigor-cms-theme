@@ -1,22 +1,22 @@
 ---
 layout: default
+list_title: Jekyll recipes
 ---
-{{ content }}
 <div class="container home">
-  {%- if site.posts.size > 0 -%}
-  <h2>{{ page.list_title | default: "Posts" }}</h2>
+  {%- if site.recipes.size > 0 -%}
+  <h2>Recipes</h2>
   <ul class="list-unstyled">
-    {%- for post in site.posts -%}
+    {%- for recipe in site.recipes -%}
     <li class="media">
       <!--<img class="mr-3" src="..." alt="Generic placeholder image">-->
       <div class="media-body">
         <h5 class="mt-0 mb-1">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a class="post-link" href="{{ recipe.url | relative_url }}">
+            {{ recipe.title | escape }}
           </a>
         </h5>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ recipe.excerpt }}
         {%- endif -%}
       </div>
     </li>
@@ -24,5 +24,3 @@ layout: default
   </ul>
   {%- endif -%}
 </div>
-
-
