@@ -18,7 +18,7 @@ layout: default
       <div class="container">
         <dl class="row bg-light border border-white">
           {% if page.preptime.value %}
-          <dt class="col-sm-8 text-right bg-dark text-white border border-white">Prep Time:</dt>
+          <dt class="col-sm-8 text-right primary border border-white">Prep Time:</dt>
           <dd class="col-sm-4">
             <meta property="prepTime" content="PT{{ page.preptime.value }}{{ page.preptime.units }}">
             {{ page.preptime.value }} {{ page.preptime.units }}
@@ -26,7 +26,7 @@ layout: default
           {% endif %}
 
           {% if page.cooktime.value %}
-          <dt class="col-sm-8 text-right bg-dark text-white border border-white">Prep Time:</dt>
+          <dt class="col-sm-8 text-right primary border border-white">Prep Time:</dt>
           <dd class="col-sm-4">
             <meta property="cookTime" content="PT{{ page.cooktime.value }}{{ page.cooktime.units }}">
             {{ page.cooktime.value }} {{ page.cooktime.units }}
@@ -34,21 +34,21 @@ layout: default
           {% endif %}
 
           {% if page.yield %}
-          <dt class="col-sm-8 text-right bg-dark text-white border border-white">Yield:</dt>
+          <dt class="col-sm-8 text-right primary border border-white">Yield:</dt>
           <dd class="col-sm-4">
               <span property="recipeYield">{{ page.yield }}</span>
           </dd>
           {% endif %}
 
           {% if page.nutritionalData.calories %}
-          <dt class="col-sm-8 text-right bg-dark text-white border border-white">Calories:</dt>
+          <dt class="col-sm-8 text-right primary border border-white">Calories:</dt>
           <dd class="col-sm-4">
               <span property="calories">{{ page.nutritionalData.calories }}</span>
           </dd>
           {% endif %}
 
           {% if page.nutritionalData.fatContent %}
-          <dt class="col-sm-8 text-right bg-dark text-white border border-white">Fat Content:</dt>
+          <dt class="col-sm-8 text-right primary border border-white">Fat Content:</dt>
           <dd class="col-sm-4">
               <span property="fatContent">{{ page.nutritionalData.fatContent }}</span>
           </dd>
